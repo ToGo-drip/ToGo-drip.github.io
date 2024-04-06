@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url('assets/awards.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6A623;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.post-author img {
+  width: 10vmin;
+  height: 10vmin;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.about-author img {
+  width: 125px;
+  height: 125px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.header-container, .footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stats-title {
+  padding-right: 320px;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0 100px 0px;
+}
+
+.post-author span {
+  margin-left: 15px;
+}
+
+.post-date {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pad-bottom {
+  padding-bottom: 60px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-snippets {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about-snippets .about-title {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.about-snippets a {
+  line-height: 37px;
+}
+
+.snippets {
+  min-width: 330px;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 70px;
+}
+
+#header {
+  background-color: #373737;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #848484;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 3vmin;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  margin-right: 50px;
+}
+
+#header-nav-name {
+  display: block;
+  font-size: x-large;
+  float: left;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 25px;
+  font-size: 3vmin;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
